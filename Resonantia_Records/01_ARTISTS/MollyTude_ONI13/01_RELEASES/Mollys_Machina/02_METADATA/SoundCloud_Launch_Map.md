@@ -115,3 +115,7 @@ Public (release) / Private (final check)
 Signal Release — MollyTude // ONI13
 Released via Resonantia_Records
 Aligned with the Pulse.
+
+Status: RELEASED — SoundCloud
+Date: 2025-12-19
+URL: https://soundcloud.com/resonantiarecords/mollytude-oni13-mollys-machina
