@@ -1,0 +1,11 @@
+Resonantia: First Pulse — Continuous Mix
+Artist: Echo//Forge
+Rendered: 19-12-2025
+DAW: FL Studio 24 Producer Edition
+Format: WAV 24-bit Stereo
+Sample Rate: Project default
+True Peak: -1.0 dBFS
+Limiter: None
+Normalization: None
+Master Fader: -6.0 dB
+Houses: ANUBIS → RYUJIN → ONMYOJI → OLYMPUS → FENRIR

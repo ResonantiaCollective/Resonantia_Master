@@ -1,0 +1,23 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"markdown.validate.enabled": true,
+		"workbench.editor.defaultBinaryEditor": "vscode.markdown.preview.editor",
+		"editor.defaultFormatter": "vscode.markdown-language-features",
+		"editor.aiStats.enabled": true,
+		"editor.accessibilitySupport": "on",
+		"editor.allowVariableFontsInAccessibilityMode": true,
+		"editor.dropIntoEditor.preferences": [
+
+		],
+		"editor.experimentalGpuAcceleration": "on",
+		"workbench.colorTheme": "Default Dark Modern",
+		"[markdown]": {
+			"editor.defaultFormatter": "DavidAnson.vscode-markdownlint"
+		}
+	}
+}

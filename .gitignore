@@ -1,0 +1,39 @@
+# --- OS / IDE ---
+.vscode/
+.DS_Store
+Thumbs.db
+
+# --- DAW / Cache ---
+**/*.bak
+**/*.tmp
+**/*.peak
+**/*.asd
+
+# --- FINAL AUDIO EXPORTS (DO NOT TRACK) ---
+Resonantia_Records/**/00_MASTER/FINAL/*.wav
+Resonantia_Records/**/00_MASTER/FINAL/*.flac
+Resonantia_Records/**/00_MASTER/FINAL/*.aiff
+
+# --- OPTIONAL: large raw audio ---
+Resonantia_Records/**/RAW_AUDIO/
+# --- BIG LIBRARIES (don’t version these) ---
+Resonantia_Records/04_SAMPLE_PACKS/
+Resonantia_Records/05_ASSET_LIBRARY/
+
+# --- RENDERS / AUDIO EXPORTS (keep local, not in git) ---
+**/00_MASTER/FINAL/*.wav
+**/00_MASTER/FINAL/*.flac
+**/00_MASTER/FINAL/*.mp3
+**/00_MASTER/FINAL/*.ogg
+
+# --- Optional: ignore ALL audio binaries everywhere (recommended) ---
+*.wav
+*.flac
+*.mp3
+*.ogg
+*.aiff
+*.m4a
+
+# --- Common caches ---
+Thumbs.db
+.DS_Store
