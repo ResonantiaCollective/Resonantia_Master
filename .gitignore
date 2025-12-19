@@ -1,39 +1,35 @@
-# --- OS / IDE ---
+# =========================
+# FL Studio / Audio Hygiene
+# =========================
+
+# Ignore all backups
+Resonantia_Records/**/Backup/
+Resonantia_Records/**/99_BACKUP/
+
+# Ignore temporary / non-final audio renders
+Resonantia_Records/**/*.wav
+Resonantia_Records/**/*.mp3
+Resonantia_Records/**/*.ogg
+Resonantia_Records/**/*.flac
+
+# BUT keep FINAL masters explicitly
+!Resonantia_Records/**/00_MASTER/FINAL/
+!Resonantia_Records/**/00_MASTER/FINAL/**/*.wav
+
+# Keep export logs
+!Resonantia_Records/**/00_MASTER/EXPORT_LOGS/**
+
+# FL Studio temp files
+*.tmp
+*.bak
+*.autosave
+# =========================
+# Editor / Local state
+# =========================
 .vscode/
-.DS_Store
-Thumbs.db
 
-# --- DAW / Cache ---
-**/*.bak
-**/*.tmp
-**/*.peak
-**/*.asd
-
-# --- FINAL AUDIO EXPORTS (DO NOT TRACK) ---
-Resonantia_Records/**/00_MASTER/FINAL/*.wav
-Resonantia_Records/**/00_MASTER/FINAL/*.flac
-Resonantia_Records/**/00_MASTER/FINAL/*.aiff
-
-# --- OPTIONAL: large raw audio ---
-Resonantia_Records/**/RAW_AUDIO/
-# --- BIG LIBRARIES (don’t version these) ---
+# =========================
+# Large asset libraries
+# =========================
 Resonantia_Records/04_SAMPLE_PACKS/
 Resonantia_Records/05_ASSET_LIBRARY/
-
-# --- RENDERS / AUDIO EXPORTS (keep local, not in git) ---
-**/00_MASTER/FINAL/*.wav
-**/00_MASTER/FINAL/*.flac
-**/00_MASTER/FINAL/*.mp3
-**/00_MASTER/FINAL/*.ogg
-
-# --- Optional: ignore ALL audio binaries everywhere (recommended) ---
-*.wav
-*.flac
-*.mp3
-*.ogg
-*.aiff
-*.m4a
-
-# --- Common caches ---
-Thumbs.db
-.DS_Store
