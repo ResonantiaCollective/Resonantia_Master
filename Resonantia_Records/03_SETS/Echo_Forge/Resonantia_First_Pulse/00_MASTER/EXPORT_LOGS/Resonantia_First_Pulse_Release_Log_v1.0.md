@@ -90,3 +90,12 @@ The First Pulse has been transmitted.
 The Realm is awake.
 
 — **Echo//Forge**
+
+### Canon Lock
+
+- Canon Event: 001
+- Sigil: SIGIL-09
+- Status: SEALED
+- Notes: First public transmission of Resonantia. 
+  Continuous Mix doctrine enforced. 
+  Living Bible Scroll 009 locked.
